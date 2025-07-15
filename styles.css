@@ -48,11 +48,14 @@ aside img {
 
 /* Paragraph spacing */
 p {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin-bottom: 10px;
-    padding: 0;
-    color: #333;
+    p {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin-bottom: 10px;
+        padding: 0;
+        color: #333;
+    }
+
 }
 
 /* Footer styling */
