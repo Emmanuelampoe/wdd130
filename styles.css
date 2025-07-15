@@ -1,28 +1,33 @@
+/* Styling the main image more specifically */
 main img {
     width: 150px;
     height: auto;
 }
 
+/* Styling the aside section */
 aside {
     width: 300px;
-    margin: 1rem auto;
+    margin: 20px auto;
     border: 1px solid #ccc;
-    padding: 1rem;
-    background-color: #f9f9f9;
+    padding: 15px;
+    background-color: #f0f0f0;
     color: #333;
 }
 
+/* Styling the image inside the aside */
 aside img {
     width: 200px;
     height: auto;
 }
 
+/* Removing padding from all <p> tags */
 p {
     padding: 0;
 }
 
+/* Styling the footer */
 footer {
-    margin-top: 2rem;
-    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    border-top: 2px solid #444;
     text-align: center;
 }
