@@ -1,0 +1,91 @@
+updated rafting.css
+
+/* Reset & Fonts */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Open Sans', sans-serif; background: #f7f9fb; color: #014F86; }
+
+/* HEADER - Grid Layout */
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #87BCDE;
+}
+header .logo { width: 100px; }
+header h1 { font-family: 'Montserrat', sans-serif; font-size: 1.8rem; }
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header nav a {
+    text-decoration: none;
+    color: #014F86;
+    font-weight: bold;
+}
+header nav a.active { text-decoration: underline; }
+
+/* HERO */
+.hero { position: relative; }
+.hero-bg { width: 100%; height: auto; display: block; }
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+    max-width: 800px;
+}
+.hero-text h2 { text-align: center; font-family: 'Montserrat', sans-serif; }
+.hero-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+.hero-content img { width: 150px; border-radius: 6px; }
+
+/* HISTORY - Grid Layout */
+.history { padding: 20px; }
+.history h2 { text-align: center; margin-bottom: 20px; }
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.history-grid img { width: 100%; border-radius: 6px; }
+
+/* ADVENTURE */
+.adventure { padding: 20px; }
+.adventure h2 { text-align: center; margin-bottom: 20px; }
+.adventure-gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.adventure-gallery figure {
+    text-align: center;
+}
+.adventure-gallery img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 2px solid #014F86;
+}
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+.socialmedia img { width: 32px; }
