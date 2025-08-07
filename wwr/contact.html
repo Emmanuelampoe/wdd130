@@ -56,15 +56,15 @@
             <h2>Meet Our Team</h2>
             <div class="team">
                 <figure>
-                    <img src="images/employee1.avif" alt="Jessica">
+                    <img src="images/employee1.avif" alt="Jessica, Lead Rafting Guide at Dry Oar">
                     <figcaption>Jessica - Lead Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee2.webp" alt="Daniel">
+                    <img src="images/employee2.webp" alt="Daniel, Safety Coordinator at Dry Oar">
                     <figcaption>Daniel - Safety Coordinator</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee3.avif" alt="Maya">
+                    <img src="images/employee3.avif" alt="Maya, Customer Support Specialist at Dry Oar">
                     <figcaption>Maya - Customer Support</figcaption>
                 </figure>
             </div>
@@ -81,15 +81,20 @@
                 <input type="email" id="email" name="email" required>
 
                 <p>Purpose of the message:</p>
-                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-                <label><input type="radio" name="purpose" value="website"> Website Suggestion</label><br>
+                <label for="general"><input type="radio" id="general" name="purpose" value="general" required> General
+                    Inquiry</label><br>
+                <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation">
+                    Reservation Question</label><br>
+                <label for="website"><input type="radio" id="website" name="purpose" value="website"> Website
+                    Suggestion</label><br>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
 
-                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly
-                    newsletter</label><br>
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly
+                    newsletter
+                </label><br>
 
                 <button type="submit">Submit Message</button>
             </form>
@@ -100,9 +105,12 @@
     <footer>
         <p>&copy; 2025 Dry Oar | Emmanuel Ampoe</p>
         <div class="socialmedia">
-            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.webp" alt="Facebook"></a>
-            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.webp" alt="Twitter"></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.webp" alt="Instagram"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.webp"
+                    alt="Follow Dry Oar on Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.webp"
+                    alt="Follow Dry Oar on Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.webp"
+                    alt="Follow Dry Oar on Instagram"></a>
         </div>
     </footer>
 </body>
