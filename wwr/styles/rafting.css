@@ -225,6 +225,8 @@ header nav a.active {
     background-color: #003865;
 }
 
+
+
 /* EMPLOYEE SECTION */
 .team-section {
     padding: 40px 20px;
@@ -247,9 +249,11 @@ header nav a.active {
 
 .team figure img {
     width: 100%;
-    height: auto;
+    height: 220px;
+    object-fit: cover;
     border-radius: 6px;
 }
+
 
 .team figcaption {
     margin-top: 10px;
