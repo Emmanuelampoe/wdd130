@@ -2,89 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Oar | Home</title>
     <meta name="description"
-        content="Welcome to Dry Oar Rafting - Explore thrilling river adventures and guided trips.">
+        content="Dry Oar Rafting — thrilling river adventures, guided trips, and unforgettable outdoor experiences.">
     <meta name="author" content="Emmanuel Ampoe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Dry Oar</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet" />
-
-    <!-- Link to your CSS -->
-    <link rel="stylesheet" href="styles/rafting.css" />
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <img src="images/logo.png" alt="Dry Oar Logo" class="logo" />
+
+    <!-- HERO SECTION WITH HEADER INSIDE -->
+    <section class="hero">
+        <header>
+            <img src="images/logo.png" alt="Dry Oar Logo" class="logo">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact</a>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
             </nav>
+        </header>
+
+        <img src="images/rafting-hero.jpg" alt="Rafting adventure on a wild river" class="hero-bg">
+
+        <div class="hero-text">
+            <h1>Have An Adventure</h1>
+            <p>Make Memories with Dry Oar</p>
+            <a href="trips.html" class="btn">Book Now</a>
         </div>
-    </header>
+    </section>
 
-    <main>
-        <!-- Hero Section -->
-        <div class="hero">
-            <img src="images/hero.jpg" alt="River Adventure Hero Image" class="hero-bg" />
-            <div class="hero-overlay">
-                <div class="hero-title-bar">
-                    <h1>DRY OAR</h1>
-                </div>
-
-                <article class="mission">
-                    <div class="mission-content">
-                        <img src="images/happy-client.avif" alt="Happy Client Smiling" />
-                        <div>
-                            <h2>Welcome!</h2>
-                            <p>Join us for unforgettable rafting trips and scenic journeys down the river. Whether
-                                you're a
-                                first-timer or a seasoned explorer, Dry Oar offers excitement and adventure for
-                                everyone.</p>
-                        </div>
-                    </div>
-                </article>
+    <!-- GRID CONTENT SECTION -->
+    <section class="offerings">
+        <div class="grid">
+            <div>
+                <img src="images/rivers.jpg" alt="Beautiful river surrounded by forest">
+                <h3>Rivers</h3>
+                <p>Experience the thrill of navigating pristine, untamed rivers with expert guides.</p>
+            </div>
+            <div>
+                <img src="images/camping.avif" alt="Campsite in the mountains">
+                <h3>Camping</h3>
+                <p>Relax under the stars after a day on the water, with everything set up for you.</p>
+            </div>
+            <div>
+                <img src="images/rapids.jpg" alt="Group rafting through whitewater rapids">
+                <h3>Rapids</h3>
+                <p>Challenge yourself against exciting rapids for an adrenaline-filled adventure.</p>
             </div>
         </div>
+    </section>
 
-        <!-- Brief Intro Section -->
-        <section class="history">
-            <h2>Why Choose Us?</h2>
-            <p>With over 20 years of experience, we combine safety, fun, and natural beauty into one unforgettable
-                rafting
-                journey. Come paddle with us and discover why thousands trust Dry Oar for their outdoor adventures.</p>
-        </section>
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
 
-        <!-- Images of adventures -->
-        <section class="adventure">
-            <h2>Gallery</h2>
-            <img src="images/adventure1.jpg" alt="Adventure Image 1" />
-            <img src="images/adventure2.jpg" alt="Adventure Image 2" />
-            <img src="images/adventure3.jpg" alt="Adventure Image 3" />
-            <img src="images/adventure4.jpg" alt="Adventure Image 4" />
-        </section>
-    </main>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
 
+            <button type="submit">Sign Me Up</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2025 Dry Oar | Emmanuel Ampoe</p>
-        <nav class="socialmedia">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener">
-                <img src="images/facebook.webp" alt="Facebook" />
-            </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener">
-                <img src="images/twitter.webp" alt="Twitter" />
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener">
-                <img src="images/instagram.webp" alt="Instagram" />
-            </a>
+        <p>Dry Oar © 2025 - Emmanuel Ampoe</p>
+        <nav>
+            <a href="site-plan-rafting.html">Site Plan</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
+        <div class="socialmedia">
+            <a href="#"><img src="images/facebook.webp" alt="Follow us on Facebook"></a>
+            <a href="#"><img src="images/twitter.webp" alt="Follow us on Twitter"></a>
+            <a href="#"><img src="images/instagram.webp" alt="Follow us on Instagram"></a>
+        </div>
     </footer>
+
 </body>
 
 </html>

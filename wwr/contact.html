@@ -2,117 +2,117 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="description" content="Contact Dry Oar Rafting Company for reservations, inquiries, or suggestions.">
     <meta name="author" content="Emmanuel Ampoe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Us | Dry Oar</title>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <!-- HEADER -->
-    <header>
-        <img src="images/logo.png" alt="Dry Oar Logo" class="logo">
-        <h1>Dry Oar</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+
+    <!-- HERO HEADER -->
+    <section class="hero contact-hero">
+        <img src="images/contact-hero.avif" alt="Rafting team navigating the river" class="hero-bg">
+        <header>
+            <img src="images/logo.png" alt="Dry Oar Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="hero-text">
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you — let’s start planning your adventure!</p>
+        </div>
+    </section>
 
     <main>
-        <!-- CONTACT INFO -->
-        <section class="contact-info">
-            <h2>Contact Information</h2>
+        <!-- CONTACT INFO & FORM -->
+        <section class="contact-container">
+            <h2>Get In Touch</h2>
             <div class="contact-grid">
-                <p><strong>Address:</strong> 123 River Lane, Rapids City, RC 56789</p>
-                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
-                <p><strong>Email:</strong> info@dryoar.com</p>
+                <!-- LEFT SIDE: INFO & MAP -->
+                <div class="contact-info">
+                    <p><strong>Address:</strong> 123 River Lane, Rapids City, RC 56789</p>
+                    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Email:</strong> <a href="mailto:info@dryoar.com">info@dryoar.com</a></p>
+                    <h3>Find Us</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.5102675691232!2d-89.06872672472704!3d42.3103141382443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8808be77f3b58f63%3A0xccf8a7669c410e19!2s123%20River%20Ln%2C%20Loves%20Park%2C%20IL%2061111%2C%20USA!5e0!3m2!1sen!2sus!4v1754702864389!5m2!1sen!2sus"
+                        height="300" style="border:0; width: 100%;" loading="lazy" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <!-- RIGHT SIDE: FORM -->
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form>
+                        <label for="name">Full Name:</label>
+                        <input id="name" type="text" name="name" required>
+
+                        <label for="email">Email Address:</label>
+                        <input id="email" type="email" name="email" required>
+
+                        <p>Purpose of the message:</p>
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label><br>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <label><input type="checkbox" name="subscribe"> Subscribe to our monthly newsletter</label><br>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
             </div>
         </section>
 
-        <!-- MAP -->
-        <section class="map">
-            <h2>Find Us Here</h2>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093747!2d144.95373531561664!3d-37.81627974202195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577c1e4e2bdb28!2s123%20River%20Lane!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <!-- EMPLOYEES -->
-        <section class="employees">
+        <!-- TEAM -->
+        <section class="team-section">
             <h2>Meet Our Team</h2>
             <div class="team">
                 <figure>
-                    <img src="images/employee1.avif" alt="Jessica, Lead Rafting Guide at Dry Oar">
-                    <figcaption>Jessica - Lead Guide</figcaption>
+                    <img src="images/employee1.avif" alt="Jessica — Lead Guide">
+                    <figcaption>Jessica — Lead Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee2.webp" alt="Daniel, Safety Coordinator at Dry Oar">
-                    <figcaption>Daniel - Safety Coordinator</figcaption>
+                    <img src="images/employee2.webp" alt="Daniel — Safety Coordinator">
+                    <figcaption>Daniel — Safety Coordinator</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee3.avif" alt="Maya, Customer Support Specialist at Dry Oar">
-                    <figcaption>Maya - Customer Support</figcaption>
+                    <img src="images/employee3.avif" alt="Maya — Customer Support">
+                    <figcaption>Maya — Customer Support</figcaption>
                 </figure>
             </div>
-        </section>
-
-        <!-- CONTACT FORM -->
-        <section class="contact-form">
-            <h2>Send Us a Message</h2>
-            <form>
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-
-                <p>Purpose of the message:</p>
-                <label for="general"><input type="radio" id="general" name="purpose" value="general" required> General
-                    Inquiry</label><br>
-                <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation">
-                    Reservation Question</label><br>
-                <label for="website"><input type="radio" id="website" name="purpose" value="website"> Website
-                    Suggestion</label><br>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <label for="subscribe">
-                    <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly
-                    newsletter
-                </label><br>
-
-                <button type="submit">Submit Message</button>
-            </form>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
         <p>&copy; 2025 Dry Oar | Emmanuel Ampoe</p>
+        <nav>
+            <a href="site-plan-rafting.html">Site Plan</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
         <div class="socialmedia">
-            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.webp"
-                    alt="Follow Dry Oar on Facebook"></a>
-            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.webp"
-                    alt="Follow Dry Oar on Twitter"></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.webp"
-                    alt="Follow Dry Oar on Instagram"></a>
+            <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
         </div>
     </footer>
+
 </body>
 
 </html>
